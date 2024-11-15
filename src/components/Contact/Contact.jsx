@@ -23,7 +23,7 @@ const Contact = ({ contactItem }) => {
           <span className={style.listIcon}><FaPhoneAlt /></span>{contactItem.number}
         </p>
       </div>
-      <button className={style.listButton} onClick={( handleDelete )}>Delete</button>
+      <button className={style.listButton} onClick={handleDelete}>Delete</button>
     </li>
   );
 };
